@@ -50,14 +50,14 @@ main {
     color: #D7E1E4;
 }
 
-.video-1 {
+ .video-1 {
     opacity: 0;
     transition: 0.5s;
 }
 
 .video-1:hover {
     opacity: 1;
-}
+} 
 
 
 
@@ -72,6 +72,8 @@ main iframe {
     float: left;
     margin: 0 20px 10px 20px;
 }
+
+
 
 main h2 {
     text-transform: uppercase;
