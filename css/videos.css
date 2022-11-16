@@ -73,8 +73,11 @@ main h3 {
     text-align: center;
     background: #F62802;
     color: #141414;
+    position: relative;
     
 }
 
 .like-dislike {
+    position: absolute;
+    left: 435px;
 }
