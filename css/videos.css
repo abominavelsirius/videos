@@ -114,5 +114,26 @@ main h3 {
 /* ---------------------------------------------footer---------------------------------------------------------------------- */
 
 footer {
-    background-color: rgb(98, 98, 110);
+    background-color: rgb(141, 130, 130);
+    height: 300px;
 }
+
+table {
+    margin: 20px 0 40px;
+    position: absolute;
+    left: 650px;
+}
+
+thead {
+    background: #555555;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px 15px;
+    text-align: center;
+}
+
