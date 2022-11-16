@@ -1,3 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 header {
-    background: #0c0c0c;
+    background: rgb(15, 15, 15);
+}
+
+.yt_icon {
+    
+}
+
+.header-nav {
+    background: rgb(15, 15, 15);
+    margin: 0 auto;
+    width: 940px;
+    height: 500px;
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+    top: 100px;
+}
+
+header li {
+    display: inline-block;
 }
