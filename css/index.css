@@ -11,6 +11,7 @@
 
 header {
     background: rgb(15, 15, 15);
+    
 }
 
 .yt_icon {
@@ -45,22 +46,23 @@ header li {
 /* ---------------------------------------------main---------------------------------------------------------------------- */
 
 main {
-    background: rgb(15, 15, 15);
+    background: linear-gradient(rgb(15, 15, 15)95%,rgb(77, 62, 62));
     font-family: 'Bubblegum Sans', cursive;
     color: #D7E1E4;
 }
 
 
 .main-structure {
-    background: rgb(15, 15, 15);
+    background: linear-gradient(rgb(15, 15, 15)95%,rgb(77, 62, 62));
     margin: 0 auto;
     width: 940px;
-    height: 2000px;
+    height: 2300px;
 }
 
 .video {
     opacity: 0.2;
     transition: 0.5s;
+    margin-bottom: 20px;
 }
 
 .video:hover {
@@ -101,7 +103,7 @@ main h3 {
 /* ---------------------------------------------footer---------------------------------------------------------------------- */
 
 footer {
-    background-color: rgb(141, 130, 130);
+    background: rgb(77, 62, 62);
     height: 300px;
 }
 
@@ -122,5 +124,9 @@ th, td {
     border: 1px solid black;
     padding: 8px 15px;
     text-align: center;
+}
+
+th:hover, td:hover {
+    background: rgb(184, 184, 57);
 }
 
